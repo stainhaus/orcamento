@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "../../pages/Home/Home";
 import { Header } from '../header/header';
-import Login from "../../pages/Login/Login";
-import { Dashboard } from "../../pages/Dashboard/Dashboard";
-import { Sobre } from "../../pages/Sobre/Sobre";
+import Login from "../../pages/login/Login";
+import { Dashboard } from "../../pages/dashboard/Dashboard";
+import Sobre from "../../pages/sobre/Sobre";
 
 export const Routers = () => {
     return (

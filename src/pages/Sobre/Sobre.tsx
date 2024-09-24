@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sobre.css';
 
-export const Sobre = () => {
+export default function Sobre(){
   return (
     <div className="about-container">
       <h1>Sobre Nós</h1>
