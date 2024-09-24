@@ -22,7 +22,7 @@ export const Header = () => {
     <div>
       <nav>
         <a href="/">Home</a>
-        <a href="/sobre">Sobre</a>
+        <a href="/about">Sobre</a>
 
         {currentUser && <a href="/dashboard">Dashboard</a>}
 
