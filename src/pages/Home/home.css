@@ -1,0 +1,38 @@
+.home-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .informacoes {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .informacoes p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .auth-container {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 400px;
+  }
+  

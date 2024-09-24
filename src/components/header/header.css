@@ -1,0 +1,22 @@
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: grey;
+}
+
+nav a{
+    color: black;
+    font-size: 16pt;
+    font-weight: bolder;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+nav a:hover{
+    color: lightgray;
+    border-bottom: 1px solid white;  
+      
+}
